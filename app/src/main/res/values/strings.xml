@@ -7,6 +7,7 @@
     <string name="google">google</string>
     <string name="facebook">facebook</string>
     <string name="twitter">twitter</string>
-    <string name="PARADAS">paradasTitle</string>
-    <string name="recomendacionesTitle">RECOMENDACIONES</string>
+    <string name="paradasTittle">PARADAS</string>
+    <string name="recomendacionesTittle">RECOMENDACIONES</string>
+    <string name="puntosInteresTittle">PUNTOS DE INTERES</string>
 </resources>

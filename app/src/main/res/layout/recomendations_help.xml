@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/background_recom_color"
+    android:background="@color/blueER"
     tools:context=".MainActivity"
     tools:layout_editor_absoluteY="89dp">
 
@@ -16,7 +16,7 @@
         android:layout_marginBottom="24dp"
         android:fontFamily="@font/FontsFree-Net-Proxima-Nova-Bold"
         android:gravity="center"
-        android:text="@string/recomendacionesTitle"
+        android:text="@string/recomendacionesTittle"
         android:textColor="@color/white"
         android:textSize="26dp"
         android:textStyle="bold"
@@ -57,7 +57,7 @@
         android:textColor="@color/darkerBlue"
         android:textSize="18dp"
         android:textStyle="bold"
-        app:layout_constraintBottom_toTopOf="@+id/smallBlueDot1"
+        app:layout_constraintBottom_toTopOf="@+id/DotBlue2"
         app:layout_constraintDimensionRatio=""
         app:layout_constraintEnd_toEndOf="@+id/blueMapicon"
         app:layout_constraintHorizontal_bias="0.507"
@@ -99,7 +99,7 @@
         app:srcCompat="@drawable/SmallLocationBlue" />
 
     <ImageView
-        android:id="@+id/smallBlueDot1"
+        android:id="@+id/DotBlue2"
         android:layout_width="11dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
@@ -113,25 +113,25 @@
         app:srcCompat="@drawable/SmallPointBlue" />
 
     <ImageView
-        android:id="@+id/DotBlue"
+        android:id="@+id/DotBlue1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginEnd="26dp"
         android:layout_marginRight="26dp"
-        app:layout_constraintBottom_toBottomOf="@+id/smallBlueDot1"
-        app:layout_constraintEnd_toStartOf="@+id/smallBlueDot1"
-        app:layout_constraintTop_toTopOf="@+id/smallBlueDot1"
+        app:layout_constraintBottom_toBottomOf="@+id/DotBlue2"
+        app:layout_constraintEnd_toStartOf="@+id/DotBlue2"
+        app:layout_constraintTop_toTopOf="@+id/DotBlue2"
         app:srcCompat="@drawable/PointBlue" />
 
     <ImageView
-        android:id="@+id/smallBlueDot2"
+        android:id="@+id/DotBlue3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="26dp"
         android:layout_marginLeft="26dp"
-        app:layout_constraintBottom_toBottomOf="@+id/smallBlueDot1"
-        app:layout_constraintStart_toEndOf="@+id/smallBlueDot1"
-        app:layout_constraintTop_toTopOf="@+id/smallBlueDot1"
+        app:layout_constraintBottom_toBottomOf="@+id/DotBlue2"
+        app:layout_constraintStart_toEndOf="@+id/DotBlue2"
+        app:layout_constraintTop_toTopOf="@+id/DotBlue2"
         app:layout_constraintVertical_bias="0.0"
         app:srcCompat="@drawable/SmallPointBlue" />
 
