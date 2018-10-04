@@ -1,6 +1,54 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout
-    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
-    android:layout_height="match_parent">
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/background_recom_color"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/title_Recommendations"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/FontsFree-Net-Proxima-Nova-Bold"
+        android:text="@string/recomendacionesTitle"
+        android:textColor="@color/white"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/blueMapicon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="9dp"
+        app:layout_constraintBottom_toTopOf="@+id/oferta_descuentos"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/map_blue" />
+
+    <TextView
+        android:id="@+id/oferta_descuentos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/FontsFree-Net-Proxima-Nova-Bold"
+        android:text="Accede a descuentos en
+ restaurantes y hoteles"
+        android:textColor="@color/darkerBlue"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/blueMapicon"
+        app:layout_constraintStart_toStartOf="@+id/blueMapicon"
+        tools:layout_editor_absoluteY="394dp" />
+
+    <android.support.constraint.Guideline
+        android:id="@+id/guideline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="513dp" />
 
 </android.support.constraint.ConstraintLayout>
