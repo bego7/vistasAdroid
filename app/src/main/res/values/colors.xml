@@ -6,7 +6,9 @@
     <color name="erColor">#043764</color>
     <color name="pinkER">#EBC9D2</color>
     <color name="blueER">#BAD9F7</color>
+    <color name="yellowER">#EADBB7</color>
     <color name="white">#FFFFFF</color>
     <color name="darkerBlue">#1471CE</color>
     <color name="darkerPink">#EA1B75</color>
+    <color name="darkerYellow">#FCB600</color>
 </resources>
