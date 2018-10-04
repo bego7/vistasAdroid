@@ -3,52 +3,137 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="wrap_content"
+    android:layout_height="match_parent"
     android:background="@drawable/background_recom_color"
-    tools:context=".MainActivity">
+    tools:context=".MainActivity"
+    tools:layout_editor_absoluteY="89dp">
 
     <TextView
         android:id="@+id/title_Recommendations"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="20dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginBottom="24dp"
         android:fontFamily="@font/FontsFree-Net-Proxima-Nova-Bold"
+        android:gravity="center"
         android:text="@string/recomendacionesTitle"
         android:textColor="@color/white"
-        android:textSize="28sp"
+        android:textSize="26dp"
         android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/locationBlueMain"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.513"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.617" />
 
     <ImageView
         android:id="@+id/blueMapicon"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="9dp"
-        app:layout_constraintBottom_toTopOf="@+id/oferta_descuentos"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="62dp"
+        android:layout_marginLeft="62dp"
+        android:layout_marginTop="140dp"
+        android:layout_marginEnd="62dp"
+        android:layout_marginRight="62dp"
+        android:layout_marginBottom="140dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintDimensionRatio="2:2"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/map_blue" />
 
     <TextView
         android:id="@+id/oferta_descuentos"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:layout_marginBottom="8dp"
         android:fontFamily="@font/FontsFree-Net-Proxima-Nova-Bold"
+        android:gravity="center"
         android:text="Accede a descuentos en
  restaurantes y hoteles"
         android:textColor="@color/darkerBlue"
+        android:textSize="18dp"
         android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/smallBlueDot1"
+        app:layout_constraintDimensionRatio=""
         app:layout_constraintEnd_toEndOf="@+id/blueMapicon"
+        app:layout_constraintHorizontal_bias="0.507"
         app:layout_constraintStart_toStartOf="@+id/blueMapicon"
-        tools:layout_editor_absoluteY="394dp" />
+        app:layout_constraintTop_toBottomOf="@+id/blueMapicon"
+        app:layout_constraintVertical_bias="0.0" />
 
-    <android.support.constraint.Guideline
-        android:id="@+id/guideline"
+    <ImageView
+        android:id="@+id/locationBlueMain"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_marginBottom="16dp"
+        app:layout_constraintBottom_toTopOf="@+id/blueMapicon"
+        app:layout_constraintDimensionRatio=""
+        app:layout_constraintEnd_toEndOf="@+id/blueMapicon"
+        app:layout_constraintHorizontal_bias="0.49"
+        app:layout_constraintStart_toStartOf="@+id/blueMapicon"
+        app:srcCompat="@drawable/locationBlue" />
+
+    <ImageView
+        android:id="@+id/locationBlue2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:layout_marginLeft="12dp"
+        app:layout_constraintBottom_toBottomOf="@+id/locationBlueMain"
+        app:layout_constraintStart_toEndOf="@+id/locationBlueMain"
+        app:srcCompat="@drawable/SmallLocationBlue" />
+
+    <ImageView
+        android:id="@+id/locationBlue1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="12dp"
+        android:layout_marginRight="12dp"
+        app:layout_constraintBottom_toBottomOf="@+id/locationBlueMain"
+        app:layout_constraintEnd_toStartOf="@+id/locationBlueMain"
+        app:layout_constraintHorizontal_chainStyle="packed"
+        app:srcCompat="@drawable/SmallLocationBlue" />
+
+    <ImageView
+        android:id="@+id/smallBlueDot1"
+        android:layout_width="11dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="40dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/SmallPointBlue" />
+
+    <ImageView
+        android:id="@+id/DotBlue"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        app:layout_constraintGuide_begin="513dp" />
+        android:layout_marginEnd="26dp"
+        android:layout_marginRight="26dp"
+        app:layout_constraintBottom_toBottomOf="@+id/smallBlueDot1"
+        app:layout_constraintEnd_toStartOf="@+id/smallBlueDot1"
+        app:layout_constraintTop_toTopOf="@+id/smallBlueDot1"
+        app:srcCompat="@drawable/PointBlue" />
+
+    <ImageView
+        android:id="@+id/smallBlueDot2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="26dp"
+        android:layout_marginLeft="26dp"
+        app:layout_constraintBottom_toBottomOf="@+id/smallBlueDot1"
+        app:layout_constraintStart_toEndOf="@+id/smallBlueDot1"
+        app:layout_constraintTop_toTopOf="@+id/smallBlueDot1"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/SmallPointBlue" />
+
 
 </android.support.constraint.ConstraintLayout>
