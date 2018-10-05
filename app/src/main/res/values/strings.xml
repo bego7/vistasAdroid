@@ -12,4 +12,11 @@
     <string name="number_0">0</string>
     <string name="seleccione_una_fecha">Seleccione una fecha…</string>
     <string name="pregunta_fecha">¿Que dias vas a realizar el tour?</string>
+    <string name="adultos">Adultos\n(13–59 años)</string>
+    <string name="ninos">Niños\n(3-12 años)</string>
+    <string name="inapam">INAPAM\n(60-más)</string>
+    <string name="continuar">CONTINUAR</string>
+    <string name="correo">Correo</string>
+    <string name="todo">TODO</string>
+    <string name="todo">TODO</string>
 </resources>
