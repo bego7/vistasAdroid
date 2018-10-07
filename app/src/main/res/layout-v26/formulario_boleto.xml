@@ -34,12 +34,13 @@
     <EditText
         android:id="@+id/seleccionFecha"
         android:layout_width="306dp"
-        android:layout_height="38dp"
+        android:layout_height="40dp"
         android:layout_marginStart="8dp"
         android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
         android:layout_marginEnd="8dp"
         android:layout_marginRight="8dp"
-        android:layout_marginBottom="344dp"
+        android:layout_marginBottom="8dp"
         android:autofillHints=""
         android:drawableEnd="@drawable/calendario"
         android:drawableRight="@drawable/calendario"
@@ -51,10 +52,12 @@
         android:textColor="#B3B3B3"
         android:textSize="11sp"
         android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="@+id/botonPulsera"
+        app:layout_constraintBottom_toBottomOf="@+id/imageMenuInferior"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.403"
+        app:layout_constraintHorizontal_bias="0.483"
         app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.272"
         tools:ignore="LabelFor,RtlHardcoded,RtlSymmetry,SmallSp" />
 
     <EditText
@@ -67,6 +70,7 @@
         android:layout_marginEnd="8dp"
         android:layout_marginRight="8dp"
         android:layout_marginBottom="172dp"
+        android:autofillHints=""
         android:ems="10"
         android:inputType="textPersonName"
         android:text="@string/correo_gmail_com"
@@ -78,9 +82,8 @@
         app:layout_constraintHorizontal_bias="0.508"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.952"
-        tools:ignore="LabelFor,SmallSp"
-        android:autofillHints="" />
+        app:layout_constraintVertical_bias="1.0"
+        tools:ignore="LabelFor,SmallSp" />
 
     <TextView
         android:id="@+id/textView7"
@@ -130,7 +133,7 @@
         android:visibility="visible"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.104"
+        app:layout_constraintHorizontal_bias="0.124"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.449" />
@@ -147,6 +150,7 @@
         android:layout_marginBottom="8dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.449" />
@@ -163,7 +167,7 @@
         android:layout_marginBottom="8dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.895"
+        app:layout_constraintHorizontal_bias="0.875"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.449" />
@@ -276,10 +280,10 @@
         android:textStyle="bold"
         app:layout_constraintBottom_toTopOf="@+id/imageMenuInferior"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.972"
+        app:layout_constraintVertical_bias="0.928"
         tools:ignore="SmallSp" />
 
     <ImageView
@@ -293,103 +297,67 @@
         app:layout_constraintStart_toStartOf="parent"
         android:contentDescription="@string/todo" />
 
-    <Button
-        android:id="@+id/botonPerfil"
-        android:layout_width="25.5dp"
-        android:layout_height="25.5dp"
-        android:layout_marginStart="8dp"
-        android:layout_marginLeft="8dp"
-        android:layout_marginTop="8dp"
-        android:layout_marginBottom="8dp"
-        android:background="@color/casiTransparente"
-        android:drawableStart="@drawable/botonperfil"
-        android:drawableLeft="@drawable/botonperfil"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/guideline2"
-        tools:ignore="RtlHardcoded" />
-
-    <Button
-        android:id="@+id/botonBoleto"
-        android:layout_width="31dp"
-        android:layout_height="31dp"
-        android:layout_marginStart="30dp"
-        android:layout_marginLeft="30dp"
-        android:layout_marginTop="4dp"
-        android:layout_marginEnd="8dp"
-        android:layout_marginRight="8dp"
-        android:layout_marginBottom="4dp"
-        android:background="@color/casiTransparente"
-        android:drawableStart="@drawable/botonticket"
-        android:drawableLeft="@drawable/botonticket"
-        app:layout_constraintBottom_toBottomOf="@+id/imageMenuInferior"
-        app:layout_constraintEnd_toStartOf="@+id/botonPulsera"
-        app:layout_constraintStart_toEndOf="@+id/botonPerfil"
-        app:layout_constraintTop_toTopOf="@+id/guideline2"
-        app:layout_constraintVertical_bias="0.0"
-        tools:ignore="RtlHardcoded" />
 
 
-    <android.support.constraint.Guideline
-        android:id="@+id/guideline2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+    <LinearLayout
+        android:id="@+id/linearLayout5"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
         android:orientation="horizontal"
-        app:layout_constraintGuide_end="45dp" />
-
-    <Button
-        android:id="@+id/botonPulsera"
-        android:layout_width="46dp"
-        android:layout_height="46dp"
-        android:layout_marginStart="8dp"
-        android:layout_marginLeft="8dp"
-        android:layout_marginEnd="8dp"
-        android:layout_marginRight="8dp"
-        android:background="@android:color/white"
-        android:drawableStart="@drawable/botonpulsera"
-        android:drawableLeft="@drawable/botonpulsera"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/guideline2"
-        tools:ignore="RtlHardcoded" />
+        app:layout_constraintStart_toStartOf="parent">
 
-    <Button
-        android:id="@+id/botonMenu"
-        android:layout_width="25dp"
-        android:layout_height="25dp"
-        android:layout_marginTop="8dp"
-        android:layout_marginEnd="8dp"
-        android:layout_marginRight="8dp"
-        android:layout_marginBottom="8dp"
-        android:background="@android:color/white"
-        android:drawableStart="@drawable/botonmenu"
-        android:drawableLeft="@drawable/botonmenu"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="@+id/imageMenuInferior"
-        app:layout_constraintTop_toTopOf="@+id/guideline2"
-        tools:ignore="RtlHardcoded" />
+        <Button
+            android:id="@+id/buttonPerfil"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@android:color/white"
+            android:drawableBottom="@drawable/botonperfil"
+            android:paddingBottom="12dp"
+            tools:ignore="ButtonStyle"/>
 
-    <Button
-        android:id="@+id/botonParada"
-        android:layout_width="32dp"
-        android:layout_height="32dp"
-        android:layout_marginStart="30dp"
-        android:layout_marginLeft="30dp"
-        android:layout_marginTop="8dp"
-        android:layout_marginEnd="30dp"
-        android:layout_marginRight="30dp"
-        android:layout_marginBottom="4dp"
-        android:background="@android:color/white"
-        android:drawableStart="@drawable/botonsalidas"
-        android:drawableLeft="@drawable/botonsalidas"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/botonMenu"
-        app:layout_constraintHorizontal_bias="0.659"
-        app:layout_constraintStart_toEndOf="@+id/botonPulsera"
-        app:layout_constraintTop_toTopOf="@+id/guideline2"
-        app:layout_constraintVertical_bias="0.0"
-        tools:ignore="RtlHardcoded" />
+        <Button
+            android:id="@+id/buttonTicket"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@android:color/white"
+            android:drawableBottom="@drawable/botonticket"
+            android:paddingBottom="12dp"
+            tools:ignore="ButtonStyle"/>
+
+        <Button
+            android:id="@+id/buttonPulsera"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@android:color/white"
+            android:drawableBottom="@drawable/botonpulsera"
+            android:paddingBottom="4dp"
+            tools:ignore="ButtonStyle"/>
+
+        <Button
+            android:id="@+id/buttonSalida"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@android:color/white"
+            android:drawableBottom="@drawable/botonsalidas"
+            android:paddingBottom="12dp"
+            tools:ignore="ButtonStyle"/>
+
+        <Button
+            android:id="@+id/buttonMenu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@android:color/white"
+            android:drawableBottom="@drawable/botonmenu"
+            android:paddingBottom="12dp"
+            tools:ignore="ButtonStyle" />
+    </LinearLayout>
 
 
 </android.support.constraint.ConstraintLayout>

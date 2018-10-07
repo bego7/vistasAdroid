@@ -354,10 +354,12 @@
         android:background="@color/erColor"
         android:text="@string/continuar"
         android:textColor="@android:color/white"
+        android:textSize="10sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toTopOf="@+id/linearLayout5"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="SmallSp" />
 
     <TextView
         android:id="@+id/textView14"
