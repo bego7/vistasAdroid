@@ -178,7 +178,7 @@
             android:paddingLeft="10dp"
             android:text="@string/tarifa_dummy"
             android:textColor="#2699FB"
-            tools:ignore="RtlSymmetry"/>
+            tools:ignore="RtlSymmetry" />
     </LinearLayout>
 
     <TextView
@@ -257,8 +257,8 @@
         android:layout_marginLeft="8dp"
         android:layout_marginTop="8dp"
         android:layout_marginEnd="8dp"
-        android:background="@drawable/recatnguloconsombreado"
         android:layout_marginRight="8dp"
+        android:background="@drawable/recatnguloconsombreado"
         android:orientation="horizontal"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -273,18 +273,18 @@
             android:paddingLeft="15dp"
             android:text="@string/hora_dummy_3"
             android:textColor="#2699FB"
-            tools:ignore="RtlSymmetry"/>
+            tools:ignore="RtlSymmetry" />
 
         <TextView
             android:id="@+id/textViewTarifaDummy2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="@string/tarifa_dummy"
             android:paddingStart="10dp"
             android:paddingLeft="10dp"
+            android:text="@string/tarifa_dummy"
             android:textColor="#2699FB"
-            tools:ignore="RtlSymmetry"/>
+            tools:ignore="RtlSymmetry" />
     </LinearLayout>
 
     <LinearLayout
@@ -304,7 +304,7 @@
             android:background="@android:color/white"
             android:drawableBottom="@drawable/botonperfil"
             android:paddingBottom="12dp"
-            tools:ignore="ButtonStyle"/>
+            tools:ignore="ButtonStyle" />
 
         <Button
             android:id="@+id/buttonTicket"
@@ -314,7 +314,7 @@
             android:background="@android:color/white"
             android:drawableBottom="@drawable/botonticket"
             android:paddingBottom="12dp"
-            tools:ignore="ButtonStyle"/>
+            tools:ignore="ButtonStyle" />
 
         <Button
             android:id="@+id/buttonPulsera"
@@ -324,7 +324,7 @@
             android:background="@android:color/white"
             android:drawableBottom="@drawable/botonpulsera"
             android:paddingBottom="4dp"
-            tools:ignore="ButtonStyle"/>
+            tools:ignore="ButtonStyle" />
 
         <Button
             android:id="@+id/buttonSalida"
@@ -334,7 +334,7 @@
             android:background="@android:color/white"
             android:drawableBottom="@drawable/botonsalidas"
             android:paddingBottom="12dp"
-            tools:ignore="ButtonStyle"/>
+            tools:ignore="ButtonStyle" />
 
         <Button
             android:id="@+id/buttonMenu"

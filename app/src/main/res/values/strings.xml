@@ -7,6 +7,7 @@
     <string name="google">google</string>
     <string name="facebook">facebook</string>
     <string name="twitter">twitter</string>
+    <string name="correcto_viaje">¿ES CORRECTO TU VIAJE?</string>
     <string name="compra_tu_boleto">Compra tu boleto</string>
     <string name="correo_gmail_com">correo@gmail.com</string>
     <string name="number_0">0</string>
@@ -28,6 +29,16 @@
     <string name="hora_dummy_3">\n15:45 hrs</string>
     <string name="hora_dummy_4">\n17:45 hrs</string>
     <string name="tarifa_dummy">\n$150.00</string>
+    <string name="tarifa_dummy2">$150.00</string>
+    <string name="tarifa_dummy3">$160.00</string>
+    <string name="pagar">PROCEDER CON LA COMPRA</string>
+    <string name="dos_ninos">2 NIÑOS</string>
+    <string name="fecha_boleto">11–09–2018</string>
+    <string name="hora_boleto">13:45</string>
+    <string name="recorrido">\nPUEBLA FASCINANTE\n</string>
+    <string name="total">\n\nTOTAL</string>
+    <string name="dinerito">\n\n$310.00</string>
     <string name="fecha_de_septiembre">Sabado 11 de Septiembre 2018</string>
     <string name="_1">         1</string>
+    <string name="un_adulto">1 ADULTO</string>
 </resources>
