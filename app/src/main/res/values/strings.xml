@@ -13,10 +13,21 @@
     <string name="seleccione_una_fecha">Seleccione una fecha…</string>
     <string name="pregunta_fecha">¿Que dias vas a realizar el tour?</string>
     <string name="adultos">Adultos\n(13–59 años)</string>
-    <string name="ninos">Niños\n(3-12 años)</string>
+    <string name="ninos">Ninos\n(3–12 años)</string>
     <string name="inapam">INAPAM\n(60-más)</string>
     <string name="continuar">CONTINUAR</string>
     <string name="correo">Correo</string>
     <string name="todo">TODO</string>
-    <string name="todo">TODO</string>
+    <string name="fecha">\n                          FECHA:</string>
+    <string name="horadummy">9:50</string>
+    <string name="turistas">\nTURISTAS</string>
+    <string name="horario">HORARIO</string>
+    <string name="tarifa">TARIFA</string>
+    <string name="hora_dummy_1">\n13:45 hrs</string>
+    <string name="hora_dummy_2">\n14:45 hrs</string>
+    <string name="hora_dummy_3">\n15:45 hrs</string>
+    <string name="hora_dummy_4">\n17:45 hrs</string>
+    <string name="tarifa_dummy">\n$150.00</string>
+    <string name="fecha_de_septiembre">Sabado 11 de Septiembre 2018</string>
+    <string name="_1">         1</string>
 </resources>
