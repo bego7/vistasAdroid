@@ -3,5 +3,6 @@
     <color name="colorPrimary">#008577</color>
     <color name="colorPrimaryDark">#00574B</color>
     <color name="colorAccent">#D81B60</color>
-    <color name="erColor">#043764</color>
+    <color name="erColor">#1a237e</color>
+    <color name="tabblue">#41043764</color>
 </resources>
